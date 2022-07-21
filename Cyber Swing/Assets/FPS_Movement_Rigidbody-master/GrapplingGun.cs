@@ -6,7 +6,7 @@ public class GrapplingGun : MonoBehaviour {
     private Vector3 grapplePoint;
     public LayerMask whatIsGrappleable;
     public Transform gunTip, camera, player;
-    private float maxDistance = 20f;
+    private float maxDistance = 100f;
     private SpringJoint joint;
 
     void Awake() {
@@ -58,7 +58,7 @@ public class GrapplingGun : MonoBehaviour {
     /// <summary>
     /// Call whenever we want to stop a grapple
     /// </summary>
-    void StopGrapple() {
+    public void StopGrapple() {
         lr.positionCount = 0;
         Destroy(joint);
     }
