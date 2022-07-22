@@ -5,7 +5,7 @@ public class Transition : MonoBehaviour
 {
  void OnTriggerEnter(Collider other)
  {
-   SceneManager.LoadScene(1);
+   SceneManager.LoadScene(2);
  }
 
 }

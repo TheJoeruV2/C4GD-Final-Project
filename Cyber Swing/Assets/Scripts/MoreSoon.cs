@@ -7,7 +7,7 @@ public class MoreSoon : MonoBehaviour
  {
    Cursor.lockState = CursorLockMode.None;
    Cursor.visible = true;
-   SceneManager.LoadScene(4);
+   SceneManager.LoadScene(3);
  }
 
 }
