@@ -62,7 +62,7 @@ public class PlayerMovement : MonoBehaviour {
     void Start() {
         playerScale =  transform.localScale;
         Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = true;
+        Cursor.visible = false;
 
         NotUsed = Color.white;
         Used = Color.black;
